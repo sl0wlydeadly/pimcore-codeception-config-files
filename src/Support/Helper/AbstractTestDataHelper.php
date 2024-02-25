@@ -14,13 +14,13 @@ declare(strict_types=1);
  *  @license    http://www.pimcore.org/license     GPLv3 and PCL
  */
 
-namespace Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Helper;
+namespace Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper;
 
 use Codeception\Module;
 use Pimcore\Model\DataObject;
 use Pimcore\Model\DataObject\AbstractObject;
 use Pimcore\Model\Element\ElementInterface;
-use Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Util\TestHelper;
+use Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Util\TestHelper;
 
 abstract class AbstractTestDataHelper extends Module
 {

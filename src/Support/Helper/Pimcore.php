@@ -14,7 +14,7 @@ declare(strict_types=1);
  *  @license    http://www.pimcore.org/license     GPLv3 and PCL
  */
 
-namespace Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Helper;
+namespace Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper;
 
 use Codeception\Exception\ModuleException;
 use Codeception\Lib\ModuleContainer;
@@ -29,7 +29,7 @@ use Pimcore\Model\DataObject;
 use Pimcore\Model\DataObject\ClassDefinition\ClassDefinitionManager;
 use Pimcore\Model\Document;
 use Pimcore\Model\Tool\SettingsStore;
-use Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Util\TestHelper;
+use Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Util\TestHelper;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
 use Symfony\Component\Filesystem\Filesystem;

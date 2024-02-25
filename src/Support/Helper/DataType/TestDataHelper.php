@@ -14,7 +14,7 @@ declare(strict_types=1);
  *  @license    http://www.pimcore.org/license     GPLv3 and PCL
  */
 
-namespace Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Helper\DataType;
+namespace Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper\DataType;
 
 use Pimcore\Cache;
 use Pimcore\Cache\RuntimeCache;
@@ -28,8 +28,8 @@ use Pimcore\Model\Element\ElementInterface;
 use Pimcore\Model\Element\ValidationException;
 use Pimcore\Model\Property;
 use Pimcore\Model\User;
-use Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Helper\AbstractTestDataHelper;
-use Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Util\TestHelper;
+use Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper\AbstractTestDataHelper;
+use Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Util\TestHelper;
 use Pimcore\Tool\Authentication;
 
 class TestDataHelper extends AbstractTestDataHelper

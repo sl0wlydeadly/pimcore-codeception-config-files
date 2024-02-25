@@ -14,7 +14,7 @@ declare(strict_types=1);
  *  @license    http://www.pimcore.org/license     GPLv3 and PCL
  */
 
-namespace Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Util;
+namespace Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Util;
 
 use Exception;
 use Pimcore\Localization\LocaleServiceInterface;
@@ -30,7 +30,7 @@ use Pimcore\Model\Element\ElementInterface;
 use Pimcore\Model\Element\Tag;
 use Pimcore\Model\Element\ValidationException;
 use Pimcore\Model\Property;
-use Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Helper\DataType\TestDataHelper;
+use Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper\DataType\TestDataHelper;
 use Pimcore\Tool;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
