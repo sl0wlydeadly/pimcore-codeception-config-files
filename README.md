@@ -108,7 +108,7 @@ actor: UnitTester
 modules:
     enabled:
         - Asserts
-        - \Sl0wlydeadly\PimcoreCodeceptionConfigBundle\Support\Helper\Pimcore:
+        - \Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper\Pimcore:
             # CAUTION: the following config means the test runner
             # will drop and re-create the Pimcore DB and purge var/classes
             # use only in a test setup (e.g. during CI)!
