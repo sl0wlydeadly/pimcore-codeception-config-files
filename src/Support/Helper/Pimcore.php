@@ -14,7 +14,7 @@ declare(strict_types=1);
  *  @license    http://www.pimcore.org/license     GPLv3 and PCL
  */
 
-namespace Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper;
+ namespace Sl0wlydeadly\PimcoreCodeceptionConfigFiles\Support\Helper;
 
 use Codeception\Exception\ModuleException;
 use Codeception\Lib\ModuleContainer;
@@ -205,7 +205,7 @@ class Pimcore extends Module\Symfony
 
         $installer = new Installer($this->getContainer()->get('monolog.logger.pimcore'), $this->getContainer()->get('event_dispatcher'));
         $installer->setImportDatabaseDataDump(false);
-        $errors = $installer->setupDatabase([
+        $errors = $installer->setupDatabase($connection, [
             'username' => 'admin',
             'password' => microtime(),
         ]);
