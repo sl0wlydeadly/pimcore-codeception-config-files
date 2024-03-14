@@ -1,6 +1,7 @@
 {
     "name": "sl0wlydeadly/pimcore-codeception-config-files",
     "description": "Pimcore Files For Codeception Test Environment Configuration",
+    "license": "MIT",
     "type": "pimcore-bundle",
     "autoload": {
         "psr-4": {
